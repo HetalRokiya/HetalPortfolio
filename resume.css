@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+    margin-left: 50%;
+
+}
+
+.menu ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: #D5D8DC;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+    text-align: left;
+}
+
+.menu ul li a:hover{
+    color: #17202A;
+}
+
+
+.color{
+    margin-top: 8%;
+    text-align: center;
+}
+
+.color h3{
+    font-size: 40px;
+}
+
+.color h3 #colorful{
+    font-size: 40px;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #00050B);
+    line-height: 0.70em;
+    outline: none;
+    animation: animate 1s linear infinite;
+}
+
+
+@keyframes animate{
+    0%{
+        color: #DFFF00;
+        text-shadow: none;
+    }
+    100%{
+        color: #fff;
+        text-shadow: 0 0 10px #03bcf4,
+                    0 0 20px #F8C471,
+                    0 0 40px #D2B4DE,
+                    0 0 80px #FF7F50,
+                    0 0 160px #DE3163;
+
+    }
+} 
+
+.color h3 #versatile{
+    outline: none;
+    animation: animate1 1s linear infinite;
+}
+
+@keyframes animate1{
+    0% {
+        font-family: 'Major Mono Display', monospace;
+      }
+    20% {
+        font-family: 'Kaushan Script', cursive;
+      }
+    40% {
+        font-family: 'Lobster', cursive;
+      }
+    60% {
+        font-family: 'Ranchers', cursive;
+      }
+    80% {
+        font-family: 'Bitter', serif;
+      }
+    100% {
+        font-family: 'Major Mono Display', monospace;
+      }
+} 
+
+.color h3 #designer{
+
+    background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 1s linear infinite;
+  display: inline-block;
+      font-size: 40px;
+}
+
+@keyframes textclip {
+    to {
+      background-position: 200% center;
+    }
+}
