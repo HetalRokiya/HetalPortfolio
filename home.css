@@ -69,7 +69,7 @@
 
 .color h3 #colorful{
     font-size: 40px;
-    
+    font-family: MuseoRegular,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",serif;
     line-height: 0.70em;
     outline: none;
     animation: animate 1s linear infinite;
@@ -94,29 +94,30 @@
 
 .color h3 #versatile{
     outline: none;
-    animation: animate1 1s linear infinite;
+    animation: textclip 1s linear infinite;
+    font-family: MuseoRegular,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",serif;
 }
 
-@keyframes animate1{
+/* @keyframes animate1{
     0% {
         font-family: 'Major Mono Display', monospace;
       }
     20% {
-        font-family: 'Kaushan Script', cursive;
+        font-family: 'Major Mono Display', monospace;
       }
     40% {
-        font-family: 'Lobster', cursive;
+        font-family: 'Major Mono Display', monospace;
       }
     60% {
-        font-family: 'Ranchers', cursive;
+        font-family: 'Major Mono Display', monospace;
       }
     80% {
-        font-family: 'Bitter', serif;
+        font-family: 'Major Mono Display', monospace;
       }
     100% {
         font-family: 'Major Mono Display', monospace;
       }
-} 
+}  */
 
 .color h3 #designer{
 
@@ -127,6 +128,7 @@
     #ff1361 67%,
     #fff800 100%
   );
+  font-family: MuseoRegular,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",serif;
   background-size: auto auto;
   background-clip: border-box;
   background-size: 200% auto;
